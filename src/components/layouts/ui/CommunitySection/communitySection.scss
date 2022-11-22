@@ -1,0 +1,29 @@
+.community_wrp {
+  margin-top: 100px;
+  .container {
+    .row {
+      p {
+        color: #fff;
+
+        span {
+          display: flex;
+          font-family: "HelveticaNeueLTProBlkCn";
+          font-style: normal;
+          font-weight: 900;
+          font-size: 40px;
+          text-transform: uppercase;
+          background: linear-gradient(
+            90deg,
+            #82ff05 0%,
+            #eeff05 44.18%,
+            #0216dd 100%
+          );
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          text-fill-color: transparent;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,90 @@
+.banner_wrp {
+  margin-top: 50px;
+//   background: url("../../../../assets/images/etherum.png");
+//   background-position: top center;
+//   background-size: 100% auto;
+//   background-repeat: no-repeat;
+  
+  .container {
+    .row {
+      color: #fff;
+      .line_image {
+        margin: 50px 0;
+      }
+      h2 {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        text-transform: uppercase;
+        font-family: "HelveticaNeueLTProBlkCn";
+      }
+      p {
+        font-size: 15px;
+        font-family: "rubik";
+        margin-bottom: 0;
+      }
+      .btn_mpwr {
+        display: flex;
+        gap: 5px;
+        width: auto;
+        height: 10%;
+        .btn_uniswap {
+          display: flex;
+          justify-content: center;
+          justify-content: center;
+          align-items: center;
+          padding: 25px 70px;
+          border-radius: 10px;
+          background: #82ff05;
+          border: none;
+        }
+        .btn_stake {
+          display: flex;
+          color: #fff;
+          justify-content: center;
+          align-items: center;
+          padding: 20px 40px;
+          padding: 25px 70px;
+          border-radius: 10px;
+          background: transparent;
+          border: 1px solid #82ff05;
+        }
+      }
+
+      .etherum_img {
+        // background: url("../../../../assets/images/etherum.png");
+        // background-position: top center;
+        // background-size: 100% auto;
+        // background-repeat: no-repeat;
+      }
+    }
+    .token_values_wrp {
+      .token_values {
+        display: flex;
+        word-break: break-all;
+        justify-content: space-between;
+        align-items: center;
+        font-style: normal;
+        font-weight: 900;
+        text-transform: uppercase;
+        p {
+          font-size: 25px;
+          font-family: "HelveticaNeueLTProBlkCn";
+          span {
+            display: block;
+            font-size: 10px;
+            font-family: "rubik";
+          }
+        }
+        .token_img {
+          display: flex;
+          justify-content: space-between;
+          img {
+            height: auto;
+            width: 40%;
+          }
+        }
+      }
+    }
+  }
+}

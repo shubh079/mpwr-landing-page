@@ -1,0 +1,38 @@
+.header_wrp {
+  .navbar {
+    .container {
+      padding-top: 20px;
+      .about_section {
+        font-size: 15px;
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 400;
+     
+      }
+      .mpwr_logo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 26px;
+        img {
+          height: auto;
+          width: 30%;
+        }
+
+        span {
+          color: #fff;
+          font-family: "HelveticaNeueLTProBlkCn";
+          font-style: normal;
+          font-weight: 900;
+          font-size: 33px;
+        }
+      }
+      .nav-link {
+        color: #fff;
+        font-family: "rubik";
+        font-weight: 400;
+      }
+    }
+  }
+}
