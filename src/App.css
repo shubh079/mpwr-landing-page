@@ -117,7 +117,7 @@ body {
 
 .bg_image1{
 
-    background: url("../src/assets/images/bg_2.png"),radial-gradient(82% 51% at 92% 19%, #0216DD 0%, rgba(2, 22, 221, 0) 100%);
+    background: url("../src/assets/images/bg_2.png"),radial-gradient(92% 22% at 85% 0%, #0216DD 0%, rgba(2, 22, 221, 0) 100%);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: 100% auto;

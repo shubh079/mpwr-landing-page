@@ -1,0 +1,36 @@
+.supply_wrp {
+  background: radial-gradient(
+    86% 102% at 42% 90%,
+    #0216dd 0%,
+    rgba(2, 22, 221, 0) 100%
+  );
+  .container {
+    .supply_values{
+        padding-top: 60px;
+    }
+    p {
+       
+      text-align: center;
+      font-family: "Rubik";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 140%;
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+
+    .supply_num {
+      font-family: "HelveticaNeueLTProBlkCn";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 70px;
+    }
+    img {
+      height: auto;
+      width: 91%;
+      padding: 60px;
+    }
+  }
+}

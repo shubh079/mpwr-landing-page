@@ -10,7 +10,7 @@ const BannerSection = () => {
       <div className="container">
         <div className="row g-o">
           <div className="col-lg-7">
-            <h2>MAKE THE METAVERSE YOUR OWN WITH $MPWR</h2>
+            <h2>MAKE THE METAVERSE<br/> YOUR OWN WITH $MPWR</h2>
             <p>
               MPWR is ClubRare's core utility token for building the Phygital<br/>
               Metaverse ecosystem as well as the main currency for the<br/> ClubRare

@@ -1,0 +1,160 @@
+.utility_wrp {
+  .container {
+    border-radius: 16px;
+    padding-bottom: 80px;
+    text-align: center;
+    background: #fff;
+    .buy_tokens {
+      text-align: center;
+      margin-top: 10%;
+      p {
+        text-transform: uppercase;
+        &:nth-child(1) {
+          font-family: "Rubik";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 33px;
+          text-align: center;
+          color: #000000;
+          margin-bottom: 0;
+        }
+        &:nth-child(2) {
+          font-family: "HelveticaNeueLTProBlkCn";
+          font-style: normal;
+          font-weight: 900;
+          font-size: 90px;
+          color: #000000;
+        }
+      }
+
+      .d-flex {
+        gap: 24px;
+      }
+
+      .container {
+        .row {
+          p {
+            font-size: 10px;
+            font-weight: 400;
+            font-family: "Rubik", sans-serif;
+          }
+
+          div {
+            span {
+              h6 {
+                font-family: "Rubik";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 140%;
+                text-transform: uppercase;
+                background: linear-gradient(90deg, #48deff 0%, #0017ff 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+              }
+              &:first-child {
+                font-size: 140px;
+                font-family: "HelveticaNeueLTProBlkCn";
+                font-style: normal;
+                font-weight: 900;
+                font-size: 160px;
+                line-height: 267px;
+                text-align: center;
+                text-transform: uppercase;
+                -webkit-text-stroke: 4px #0216dd;
+                color: white;
+              }
+
+              &:last-child {
+                text-align: left;
+                padding-top: 80px;
+              }
+            }
+          }
+        }
+      }
+    }
+    h1 {
+      text-align: center;
+      font-family: "HelveticaNeueLTProBlkCn";
+      padding-top: 60px;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 60px;
+      line-height: 140%;
+      text-transform: uppercase;
+      color: #000000;
+    }
+    .card_wrp {
+      display: flex;
+      .row {
+        text-align: center;
+        .card {
+          border: none;
+          &:nth-child(1) {
+            background: url("../../../../assets/images/E.png");
+            background-repeat: no-repeat;
+            background-position: top center;
+          }
+          &:nth-child(2) {
+            background: url("../../../../assets/images/E.png");
+            background-repeat: no-repeat;
+            background-position: top center;
+          }
+          &:nth-child(3) {
+            background: url("../../../../assets/images/E.png");
+            background-repeat: no-repeat;
+            background-position: top center;
+          }
+          &:nth-child(4) {
+            background: url("../../../../assets/images/E.png");
+            background-repeat: no-repeat;
+            background-position: top center;
+          }
+          p {
+            font-family: "Rubik";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 20px;
+            text-align: center;
+            color: #000000;
+          }
+
+          h2 {
+            font-family: "Rubik";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 35px;
+            line-height: 140%;
+            text-align: center;
+            text-transform: uppercase;
+            background: linear-gradient(90deg, #48deff 0%, #0017ff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+        }
+      }
+    }
+
+    .utility_button {
+      margin-top: 5%;
+      align-items: center;
+      padding: 14px 50px;
+      gap: 10px;
+      background: #0216dd;
+      border-radius: 10px;
+      color: #fff;
+      border: none;
+    }
+
+    .btn_buy_mpwr {
+      padding: 14px 50px;
+      gap: 10px;
+      background: #0216dd;
+      border-radius: 10px;
+      color: #fff;
+      border: none;
+    }
+  }
+}

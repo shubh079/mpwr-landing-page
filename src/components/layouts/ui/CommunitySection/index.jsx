@@ -10,35 +10,35 @@ const CommunitySection = () => {
             <p className="heading">
               FOR THE <span>CREATORS</span>
             </p>
-            <p>
+            <p className="community_para">
               By staking MPWR, Creators on ClubRare Marketplace can unlock
-              reduced or no-fee NFT trading and take advantage of ClubRare's
-              premiere shipping and authentication solutions with major
-              discounts. MPWR holders can also launch their products in special
-              ClubRare auctions, apply for grants, and pursue crowdfunding.
+              reduced or no-fee<br/> NFT trading and take advantage of<br/> ClubRare's
+              premiere shipping and <br/>authentication solutions with major<br/>
+              discounts. MPWR holders can also launch<br/> their products in special
+              ClubRare<br/> auctions, apply for grants, and pursue<br/> crowdfunding.
             </p>
           </div>
           <div className="col-lg-4">
-            <p>
+            <p className="heading">
               FOR THE <span>COLLECTORS</span>
             </p>
-            <p>
-              MPWR will be used as the official currency of ClubRare Metaverse.
-              In a collector's dedicated showcase area, they can use MPWR to
-              personalize their space, equip their avatars, join guilds, and
-              battle for exclusive access to real-world limited merch. Every
-              MPWR token spent on in-universe purchases is burned forever.
+            <p className="community_para">
+              MPWR will be used as the official currency<br/> of ClubRare Metaverse.
+              In a collector's<br/> dedicated showcase area, they can use<br/> MPWR to
+              personalize their space, equip<br/> their avatars, join guilds, and
+              battle for<br/> exclusive access to real-world limited<br/> merch. Every
+              MPWR token spent on in<br/>-universe purchases is burned forever.
             </p>
            
           </div>
           <div className="col-lg-4">
-            <p>
+            <p className="heading">
               FOR THE <span>COMMUNITY</span>
             </p>
-            <p>
-              MPWR is fairly launched, fairly run, and shares profit to holders.
-              There are no private sales. When creators list NFTs, and when
-              Collectors buy and sell them, they earn MPWR.
+            <p className="community_para">
+              MPWR is fairly launched, fairly run, and<br/> shares profit to holders.
+              There are no<br/> private sales. When creators list NFTs, and<br/> when
+              Collectors buy and sell them, they<br/> earn MPWR.
             </p>
           </div>
         </div>

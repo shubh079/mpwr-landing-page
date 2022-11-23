@@ -15,12 +15,12 @@ const Home = () => {
         <Header/>
         <BannerSection />
         <CommunitySection />
-        <SupplySection />
+        <SupplySection />       
+      <UtilitySection />
       </div>
-
       <RoadmapSection />
       <PartnerSection />
-      <UtilitySection />
+    
     </div>
   );
 };
