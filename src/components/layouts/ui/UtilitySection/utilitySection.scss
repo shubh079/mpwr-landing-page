@@ -1,9 +1,134 @@
 .utility_wrp {
+  background: url("../../../../assets//images/utility_bg.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+ 
+  .glassmorphism_wrp {
+    text-align: center;
+    padding-top: 10%;
+    position: relative;
+
+    .glassmorphism_eth {
+      position: absolute;
+      top: 53%;
+      left: 12%;
+      height: auto;
+      width: 21%;
+      z-index: 2;
+    }
+    p {
+      font-family: "Rubik";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 25px;
+      line-height: 140%;
+      text-align: center;
+      text-transform: uppercase;
+      background: linear-gradient(90deg, #00a3ff 0%, #0216dd 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+    h3 {
+      font-family: "HelveticaNeueLTProBlkCn";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 70px;
+      line-height: 140%;
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+
+    .glassmorphism {
+      justify-content: center;
+      height: auto;
+      width: 60%;
+      box-sizing: border-box;
+      margin-top: 60px;
+      backdrop-filter: blur(25px);
+      border-radius: 20px;
+      background: rgba(0, 0, 0, 0.6);
+
+
+      .row {
+        border: 1px solid #82ff05;
+        border-radius: 19px;
+        padding: 65px 0px 65px 50px;
+
+        .gap_mobile {
+          gap: 24px;
+          padding-right: 40px;
+          .etherson_img{
+            height: auto;
+            width: 170px;
+          }
+          .uniswap_img{
+            height: auto;
+            width: 170px;
+          }
+
+          img {
+            // height: auto;
+            // width: 50%;
+          }
+        }
+      }
+
+      .uniswap_btn {
+        border: 1px solid #fff;
+        // display: flex;
+        // flex-direction: row;
+        // align-items: flex-start;
+        padding: 10px 20px;
+        // gap: 10px;
+        background: #82ff05;
+        border-radius: 10px;
+
+        .text_uniswap_btn {
+          height: 28px;
+          font-family: "PF Din Text Comp Pro";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 140%;
+          text-transform: uppercase;
+          color: #ffffff;
+        }
+      }
+      .etherson_btn {
+        border: 1px solid #fff;
+        // display: flex;
+        // flex-direction: row;
+        // align-items: flex-start;
+        padding: 10px 29px;
+        // gap: 10px;
+        background: transparent;
+        border-radius: 10px;
+
+        .text_scan_btn {
+          height: 28px;
+          font-family: "PF Din Text Comp Pro";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 140%;
+          text-transform: uppercase;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+
   .container {
     border-radius: 16px;
-    padding-bottom: 80px;
+    // padding-bottom: 80px;
     text-align: center;
     background: #fff;
+    height: auto;
+    width: 75%;
     .buy_tokens {
       text-align: center;
       margin-top: 10%;
@@ -31,10 +156,11 @@
         gap: 24px;
       }
 
-      .container {
+      .development_wrp {
+        padding: 42px;
         .row {
           p {
-            font-size: 10px;
+            font-size: 9px;
             font-weight: 400;
             font-family: "Rubik", sans-serif;
           }
@@ -45,7 +171,7 @@
                 font-family: "Rubik";
                 font-style: normal;
                 font-weight: 600;
-                font-size: 24px;
+                font-size: 20px;
                 line-height: 140%;
                 text-transform: uppercase;
                 background: linear-gradient(90deg, #48deff 0%, #0017ff 100%);
@@ -57,7 +183,7 @@
                 font-family: "HelveticaNeueLTProBlkCn";
                 font-style: normal;
                 font-weight: 900;
-                font-size: 160px;
+                font-size: 150px;
                 line-height: 267px;
                 text-align: center;
                 text-transform: uppercase;
@@ -89,33 +215,37 @@
       display: flex;
       .row {
         text-align: center;
+        padding-top: 30px;
+        .col-lg-3{
         .card {
           border: none;
+          padding-top: 40px;
           &:nth-child(1) {
-            background: url("../../../../assets/images/E.png");
+            background-image: url("../../../../assets/images/E.png") ;
             background-repeat: no-repeat;
             background-position: top center;
           }
           &:nth-child(2) {
-            background: url("../../../../assets/images/E.png");
+            background-image: url("../../../../assets/images/S.png") ;
             background-repeat: no-repeat;
             background-position: top center;
           }
           &:nth-child(3) {
-            background: url("../../../../assets/images/E.png");
+            background-image: url("../../../../assets/images/B.png") ;
             background-repeat: no-repeat;
             background-position: top center;
           }
           &:nth-child(4) {
-            background: url("../../../../assets/images/E.png");
+            background-image: url("../../../../assets/images/U.png") ;
             background-repeat: no-repeat;
             background-position: top center;
           }
+        }
           p {
             font-family: "Rubik";
             font-style: normal;
             font-weight: 400;
-            font-size: 13px;
+            font-size: 12px;
             line-height: 20px;
             text-align: center;
             color: #000000;
@@ -155,6 +285,7 @@
       border-radius: 10px;
       color: #fff;
       border: none;
+      margin-bottom: 83px;
     }
   }
 }

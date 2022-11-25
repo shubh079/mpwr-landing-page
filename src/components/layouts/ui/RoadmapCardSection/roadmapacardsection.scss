@@ -1,0 +1,32 @@
+.card_wrp {
+  text-align: unset;
+  .container {
+    .card {
+      h4 {
+        background: linear-gradient(90deg, #000000 0%, #4c2d8d 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+      }
+      ul {
+        li {
+          position: relative;
+          &::before {
+            content: "";
+            height: 10px;
+            width: 10px;
+            border-radius: 50%;
+            position: absolute;
+            background-color: green;
+            // left: -15%;
+            left: -6%;
+            // top: 50%;
+            top: 34%;
+            transform: translateY(-50%);
+          }
+        }
+      }
+    }
+  }
+}

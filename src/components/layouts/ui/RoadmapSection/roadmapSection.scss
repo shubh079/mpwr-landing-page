@@ -1,0 +1,242 @@
+* {
+  list-style: none;
+}
+
+.roadmap_wrp {
+  // background-image: url("../../../assets/images//roadmap_bg1.webp");
+  // background-repeat: no-repeat;
+  // background-color: #fff;
+  // overflow: hidden;
+  // width: 100%;
+  // height: 71rem;
+  // background-size: cover;
+  // position: relative;
+  height: 1300px;
+  //   text-align: center;
+  // background-color: #fff;
+  // background-image: url("../../../../assets/images/mpwr_roadmap.png");
+  // background-position: center center;
+  // background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+  position: relative;
+  background: url("../../../../assets/images/mpwr_roadmap1.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% 100%;
+
+  .roadmap_line_image {
+    img {
+      height: auto;
+      width: 12%;
+    }
+
+    .roadmap_image {
+      border: none;
+      padding: 12px 8px;
+      gap: 26px;
+      width: 24%;
+      height: auto;
+      background: #f7f7f7;
+      border-radius: 8px;
+      font-family: "Rubik";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 11px;
+      color: #000000;
+      .img_roadmap_mobile {
+        display: none;
+      }
+      &:nth-child(1) {
+        color: #000000;
+        position: absolute;
+        top: 17%;
+        right: 48%;
+      }
+
+      &:nth-child(2) {
+        position: absolute;
+        top: 26%;
+        right: 8%;
+        color: #000000;
+      }
+
+      &:nth-child(3) {
+        color: #000000;
+        position: absolute;
+        top: 43%;
+        right: 39%;
+        // width: 13%;
+        // height: auto;
+
+        color: #000000;
+      }
+
+      &:nth-child(4) {
+        color: #000000;
+        position: absolute;
+        top: 72%;
+        right: 40%;
+        // width: 20%;
+        // height: auto;
+      }
+    }
+  }
+  .roadmap_container {
+    // position: absolute;
+
+    // margin-top: 50px;
+
+    .glassmorphism_wrp {
+      text-align: center;
+      padding-top: 4%;
+      position: relative;
+
+      .glassmorphism_eth {
+        position: absolute;
+        top: 53%;
+        left: 12%;
+        height: auto;
+        width: 21%;
+        z-index: 2;
+      }
+      p {
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 140%;
+        text-align: center;
+        text-transform: uppercase;
+        background: linear-gradient(90deg, #00a3ff 0%, #0216dd 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+      }
+      h3 {
+        font-family: "HelveticaNeueLTProBlkCn";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 70px;
+        line-height: 140%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+      }
+
+      .glassmorphism {
+        justify-content: center;
+        height: auto;
+        width: 60%;
+        box-sizing: border-box;
+        margin-top: 60px;
+        backdrop-filter: blur(25px);
+        border-radius: 20px;
+        background: rgba(0, 0, 0, 0.6);
+
+        .row {
+          border: 1px solid #82ff05;
+          border-radius: 19px;
+          padding: 65px 50px 65px 50px;
+
+          .gap_mobile {
+            gap: 24px;
+            padding-right: 40px;
+            .etherson_img {
+              height: auto;
+              width: 170px;
+            }
+            .uniswap_img {
+              height: auto;
+              width: 170px;
+            }
+
+            img {
+              // height: auto;
+              // width: 50%;
+            }
+          }
+        }
+
+        .uniswap_btn {
+          border: 1px solid #fff;
+          // display: flex;
+          // flex-direction: row;
+          // align-items: flex-start;
+          padding: 10px 20px;
+          // gap: 10px;
+          background: #82ff05;
+          border-radius: 10px;
+
+          .text_uniswap_btn {
+            height: 28px;
+            font-family: "PF Din Text Comp Pro";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 140%;
+            text-transform: uppercase;
+            color: #ffffff;
+          }
+        }
+        .etherson_btn {
+          border: 1px solid #fff;
+          // display: flex;
+          // flex-direction: row;
+          // align-items: flex-start;
+          padding: 10px 29px;
+          // gap: 10px;
+          background: transparent;
+          border-radius: 10px;
+
+          .text_scan_btn {
+            height: 28px;
+            font-family: "PF Din Text Comp Pro";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 140%;
+            text-transform: uppercase;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+
+    .roadmap_heading {
+      padding-top: 55px;
+      text-align: center;
+      font-family: "HelveticaNeueLTProBlkCn";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 64px;
+      line-height: 140%;
+      text-transform: uppercase;
+      color: #82ff05;
+    }
+
+    .subheading {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-family: "Rubik";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 140%;
+      text-align: center;
+      color: #000000;
+
+      p {
+        width: 60%;
+      }
+    }
+  }
+  .img_roadmap {
+    // margin-left: -1%;
+    // padding: -20px;
+    height: auto;
+    width: 150%;
+  }
+}

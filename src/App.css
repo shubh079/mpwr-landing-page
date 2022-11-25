@@ -117,9 +117,24 @@ body {
 
 .bg_image1{
 
-    background: url("../src/assets/images/bg_2.png"),radial-gradient(92% 22% at 85% 0%, #0216DD 0%, rgba(2, 22, 221, 0) 100%);
+    background: url("../src/assets/images/bg_1.png"),radial-gradient(92% 22% at 85% 0%, #0216DD 0%, rgba(2, 22, 221, 0) 100%),radial-gradient(
+      74% 16% at 48% 45%,
+      #0216dd 0%,
+      rgba(2, 22, 221, 0) 100%
+    );
     background-repeat: no-repeat;
     background-position: top center;
     background-size: 100% auto;
 
 }
+
+.bg_image2{
+  background: radial-gradient(50% 50% at 50% 50%, #0216DD 0%, rgba(2, 22, 221, 0) 100%);
+  /* background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% 100%; */
+}
+
+/* .footer_bg{
+  background: radial-gradient(50% 50% at 50% 50%, #0216DD 0%, rgba(2, 22, 221, 0) 100%);;
+} */

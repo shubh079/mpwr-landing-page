@@ -7,20 +7,30 @@ import RoadmapSection from "../../components/layouts/ui/RoadmapSection";
 import SupplySection from "../../components/layouts/ui/SupplySection";
 import UtilitySection from "../../components/layouts/ui/UtilitySection";
 import Header from "../../components/layouts/Header";
+import Footer from "../../components/layouts/Footer";
+import GlassMorphism from "../../components/layouts/ui/GlassmorphismSection";
 
 const Home = () => {
   return (
     <div>
       <div className="bg_image1">
-        <Header/>
+        <Header />
         <BannerSection />
         <CommunitySection />
-        <SupplySection />       
-      <UtilitySection />
+        <SupplySection />
+        <UtilitySection />
       </div>
-      <RoadmapSection />
-      <PartnerSection />
-    
+      
+
+      <div className="bg_image2">
+        <GlassMorphism />
+        <RoadmapSection />
+      </div>
+
+      <div className="footer_bg">
+        <PartnerSection />
+        {/* <Footer /> */}
+      </div>
     </div>
   );
 };

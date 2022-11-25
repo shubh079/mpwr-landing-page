@@ -13,7 +13,7 @@ function App() {
           <Route path="*" element={<>404 page not found!</>} />
         </Routes>
       </div>
-      <Footer/>
+      {/* <Footer/> */}
     </>
   );
 }
