@@ -136,5 +136,8 @@ body {
 }
 
 /* .footer_bg{
-  background: radial-gradient(50% 50% at 50% 50%, #0216DD 0%, rgba(2, 22, 221, 0) 100%);;
+  background: radial-gradient(50% 37% at 50% 50%, #0216DD 0%, rgba(2, 22, 221, 0) 100%);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 100% auto;
 } */

@@ -29,8 +29,9 @@ const Home = () => {
 
       <div className="footer_bg">
         <PartnerSection />
-        {/* <Footer /> */}
+       
       </div>
+      <Footer />
     </div>
   );
 };

@@ -16,7 +16,7 @@ const UtilitySection = () => {
               <div className="card">
                 <h2>EARN</h2>
                 <p>
-                  MPWR holders gain bonuses by listing and trading NFTs on
+                  MPWR holders <span className="text_color">gain bonuses</span> by listing and trading NFTs on
                   ClubRare Marketplace.
                 </p>
               </div>
@@ -26,8 +26,7 @@ const UtilitySection = () => {
                 <h2>STAKE</h2>
                 <p>
                   20% of the entire token pool is reserved for staking rewards.
-                  In addition, community members can stake LP NFTs for the
-                  rewards.
+                  In addition, community members can stake LP NFTs for <span className="text_color">the rewards.</span>
                 </p>
               </div>
             </div>
@@ -36,9 +35,9 @@ const UtilitySection = () => {
                 <h2>BATTLE</h2>
                 <p>
                   In the upcoming ClubRare Metaverse, users will join guilds and
-                  go head-to-head for exclusive access to real-world
+                  go head-to-head for <span className="text_color">exclusive access</span> to real-world
                   collectibles, and drops from their favorite brands. Players
-                  will use MPWR to gear up and gain the advantage in quests and
+                  will use MPWR to <span className="text_color">gear up and gain</span> the advantage in quests and
                   skirmishes.
                 </p>
               </div>
@@ -49,7 +48,7 @@ const UtilitySection = () => {
                 <p>
                   Users will have a space all their own, and show off their IRL
                   merch in their metaverse showcase. MPWR tokens can be used to
-                  bring their wardrobe and collectibles to life, and customize
+                  <span className="text_color">bring their wardrobe and collectibles to life</span>, and customize
                   every aspect of their experience.
                 </p>
               </div>

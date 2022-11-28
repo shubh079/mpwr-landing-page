@@ -10,7 +10,7 @@ import copyright2 from "../../../assets/images/copyright2.png";
 const Footer = () => {
   return (
     <div className="footer_wrapper">
-      <div className="row g-0">
+      <div className="row row-height g-0">
         {/* <div className='social_media'> */}
         <div className="col-lg-6 col-12 twitter">
           <div className="image">
@@ -49,8 +49,8 @@ const Footer = () => {
         <div className="container">
           <div className="row g-0">
             <div className="copyright_left col-lg-4">
-              <img src={copyright2} alt="copyright" />
-              <img src={copyright1} alt="copyright" />
+              <img src={copyright2} className = "twitt" alt="copyright" />
+              <img src={copyright1} className= "disc" alt="copyright" />
             </div>
 
             <div className="copyright_right col-lg-8 d-flex">

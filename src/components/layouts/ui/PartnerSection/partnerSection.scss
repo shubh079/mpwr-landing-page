@@ -1,6 +1,10 @@
 .partnersection_wrp {
+  background: url("../../../../assets/images/footerpipe.png"),radial-gradient(73% 100% at 46% 135%, #0216DD 0%, rgba(2, 22, 221, 0) 100%);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% auto;
   .container {
-    margin-top: -80px;
+    // margin-top: -80px;
     // #footer-up-section {
     //   border: 2px solid red;
     // }
@@ -37,7 +41,7 @@
       }
 
       .press {
-        margin-top: 80px;
+        // margin-top: 80px;
         background-color: #fff;
         border-radius: 20px;
         height: auto;

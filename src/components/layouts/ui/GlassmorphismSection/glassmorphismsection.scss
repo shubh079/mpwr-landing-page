@@ -1,121 +1,116 @@
 .glassmorphism_wrp {
-    background: url("../../../../assets//images/mpwr_utility.png");
+  background: url("../../../../assets//images/mpwr_utility.png");
+  text-align: center;
+  padding-top: 10%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% 100%;
+
+  .glassmorphism_eth {
+    position: absolute;
+    top: 53%;
+    left: 12%;
+    height: auto;
+    width: 21%;
+    z-index: 2;
+  }
+  p {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 140%;
     text-align: center;
-    padding-top: 10%;
-    position: relative;
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: 100% 100%;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #00a3ff 0%, #0216dd 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  h3 {
+    font-family: "HelveticaNeueLTProBlkCn";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
 
-    .glassmorphism_eth {
-      position: absolute;
-      top: 53%;
-      left: 12%;
-      height: auto;
-      width: 21%;
-      z-index: 2;
-    }
-    p {
-      font-family: "Rubik";
-      font-style: normal;
-      font-weight: 600;
-      font-size: 25px;
-      line-height: 140%;
-      text-align: center;
-      text-transform: uppercase;
-      background: linear-gradient(90deg, #00a3ff 0%, #0216dd 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      text-fill-color: transparent;
-    }
-    h3 {
-      font-family: "HelveticaNeueLTProBlkCn";
-      font-style: normal;
-      font-weight: 900;
-      font-size: 70px;
-      line-height: 140%;
-      text-align: center;
-      text-transform: uppercase;
-      color: #ffffff;
-    }
+  .glassmorphism {
+    justify-content: center;
+    height: auto;
+    width: 60%;
+    box-sizing: border-box;
+    margin-top: 60px;
+    backdrop-filter: blur(25px);
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.6);
 
-    .glassmorphism {
-      justify-content: center;
-      height: auto;
-      width: 60%;
-      box-sizing: border-box;
-      margin-top: 60px;
-      backdrop-filter: blur(25px);
-      border-radius: 20px;
-      background: rgba(0, 0, 0, 0.6);
+    .row {
+      border-radius: 19px;
+      padding: 65px 0px 65px 20%;
 
-
-      .row {
-        // border: 1px solid #82ff05;
-        border-radius: 19px;
-        padding: 65px 0px 65px 50px;
-
-        .gap_mobile {
-          gap: 24px;
-          padding-right: 40px;
-          .etherson_img{
-            height: auto;
-            width: 170px;
-          }
-          .uniswap_img{
-            height: auto;
-            width: 170px;
-          }
-
-          img {
-            // height: auto;
-            // width: 50%;
-          }
+      .gap_mobile {
+        gap: 24px;
+        .etherson_img {
+          height: auto;
+          width: 170px;
+        }
+        .uniswap_img {
+          height: auto;
+          width: 170px;
         }
       }
-
-      .uniswap_btn {
-        border: 1px solid #fff;
-        // display: flex;
-        // flex-direction: row;
-        // align-items: flex-start;
-        padding: 10px 20px;
-        // gap: 10px;
-        background: #82ff05;
-        border-radius: 10px;
-
-        .text_uniswap_btn {
-          height: 28px;
-          font-family: "PF Din Text Comp Pro";
-          font-style: normal;
-          font-weight: 700;
-          font-size: 20px;
-          line-height: 140%;
-          text-transform: uppercase;
-          color: #ffffff;
-        }
+    }
+    .uniswap_btn_buy {
+      padding: 10px 20px;
+      background: #82ff05;
+      border-radius: 10px;
+      border: none;
+      .text_uniswap_btn_buy {
+        height: 28px;
+        font-family: "HelveticaNeueLTProBlkCn";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 140%;
+        text-transform: uppercase;
       }
-      .etherson_btn {
-        border: 1px solid #fff;
-        // display: flex;
-        // flex-direction: row;
-        // align-items: flex-start;
-        padding: 10px 29px;
-        // gap: 10px;
-        background: transparent;
-        border-radius: 10px;
+    }
+    .uniswap_btn {
+      border: 1px solid #fff;
+      padding: 10px 20px;
+      background: #82ff05;
+      border-radius: 10px;
 
-        .text_scan_btn {
-          height: 28px;
-          font-family: "PF Din Text Comp Pro";
-          font-style: normal;
-          font-weight: 700;
-          font-size: 20px;
-          line-height: 140%;
-          text-transform: uppercase;
-          color: #ffffff;
-        }
+      .text_uniswap_btn {
+        height: 28px;
+        font-family: "HelveticaNeueLTProBlkCn";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 140%;
+        text-transform: uppercase;
+        color: #ffffff;
+      }
+    }
+    .etherson_btn {
+      border: 1px solid #fff;
+      padding: 10px 29px;
+      background: transparent;
+      border-radius: 10px;
+
+      .text_scan_btn {
+        font-family: "HelveticaNeueLTProBlkCn";
+        font-style: normal;
+        font-size: 15px;
+        text-transform: uppercase;
+        color: #ffffff;
       }
     }
   }
+}

@@ -16,7 +16,7 @@ const GlassMorphism = () => {
         <div className="glassmorphism mx-auto">
           <div className="row g-0">
             
-            <div className="col-lg-7 col-12 d-flex justify-content-center align-items-end flex-column gap_mobile ">
+            <div className="col-lg-6 col-12 d-flex justify-content-center align-items-center flex-column gap_mobile ">
             
               <img src={uniswap} className="uniswap_img" alt="image" />
               <div className="glass_btn d-flex gap-4">
@@ -24,13 +24,13 @@ const GlassMorphism = () => {
                 <button className="uniswap_btn bg-transparent">
                   <span className="text_uniswap_btn">VIEW GUIDE</span>
                 </button>
-                <button className="uniswap_btn">
-                  <span className="text_uniswap_btn">BUY NOW</span>
+                <button className="uniswap_btn_buy">
+                  <span className="text_uniswap_btn_buy">BUY NOW</span>
                 </button>
               </div>
             </div>
 
-            <div className="col-lg-5 col-12 d-flex justify-content-center align-items-center flex-column gap_mobile">
+            <div className="col-lg-6 col-12 d-flex justify-content-center align-items-center flex-column gap_mobile">
               <img src={etherson} className="etherson_img" alt="image" />
               <button className="etherson_btn">
                 <span className="text_scan_btn">Scan</span>
