@@ -3,11 +3,13 @@
   .container {
     .card {
       h4 {
-        background: linear-gradient(90deg, #000000 0%, #4c2d8d 100%);
+        font-family: "HelveticaNeueLTProBlkCn";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 25px;
+        background: linear-gradient(40deg, #000000 0%, #4c2d8d 35%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-fill-color: transparent;
       }
       ul {
         li {
@@ -18,7 +20,7 @@
             width: 10px;
             border-radius: 50%;
             position: absolute;
-            background-color: green;
+            background-color: #82ff05;
             // left: -15%;
             left: -6%;
             // top: 50%;

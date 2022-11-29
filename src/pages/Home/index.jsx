@@ -26,9 +26,9 @@ const Home = () => {
         <GlassMorphism />
         <RoadmapSection />
       </div>
-
+      <PartnerSection />
       <div className="footer_bg">
-        <PartnerSection />
+      
        
       </div>
       <Footer />

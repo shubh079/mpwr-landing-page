@@ -16,8 +16,8 @@ const UtilitySection = () => {
               <div className="card">
                 <h2>EARN</h2>
                 <p>
-                  MPWR holders <span className="text_color">gain bonuses</span> by listing and trading NFTs on
-                  ClubRare Marketplace.
+                  MPWR holders <span className="text_color">gain bonuses</span>{" "}
+                  by listing and trading NFTs on ClubRare Marketplace.
                 </p>
               </div>
             </div>
@@ -26,7 +26,8 @@ const UtilitySection = () => {
                 <h2>STAKE</h2>
                 <p>
                   20% of the entire token pool is reserved for staking rewards.
-                  In addition, community members can stake LP NFTs for <span className="text_color">the rewards.</span>
+                  In addition, community members can stake LP NFTs for{" "}
+                  <span className="text_color">the rewards.</span>
                 </p>
               </div>
             </div>
@@ -35,10 +36,12 @@ const UtilitySection = () => {
                 <h2>BATTLE</h2>
                 <p>
                   In the upcoming ClubRare Metaverse, users will join guilds and
-                  go head-to-head for <span className="text_color">exclusive access</span> to real-world
-                  collectibles, and drops from their favorite brands. Players
-                  will use MPWR to <span className="text_color">gear up and gain</span> the advantage in quests and
-                  skirmishes.
+                  go head-to-head for{" "}
+                  <span className="text_color">exclusive access</span> to
+                  real-world collectibles, and drops from their favorite brands.
+                  Players will use MPWR to{" "}
+                  <span className="text_color">gear up and gain</span> the
+                  advantage in quests and skirmishes.
                 </p>
               </div>
             </div>
@@ -48,8 +51,10 @@ const UtilitySection = () => {
                 <p>
                   Users will have a space all their own, and show off their IRL
                   merch in their metaverse showcase. MPWR tokens can be used to
-                  <span className="text_color">bring their wardrobe and collectibles to life</span>, and customize
-                  every aspect of their experience.
+                  <span className="text_color">
+                    bring their wardrobe and collectibles to life
+                  </span>
+                  , and customize every aspect of their experience.
                 </p>
               </div>
             </div>
@@ -59,8 +64,8 @@ const UtilitySection = () => {
         <button className="utility_button">Learn More</button>
 
         <div className="buy_tokens">
-          <p>Why should I buy tokens </p>
-          <p>here and now?</p>
+          <p className="token_heading">Why should I buy tokens </p>
+          <p className="token_heading">here and now?</p>
 
           <div className="development_wrp">
             <div className="row">
@@ -71,7 +76,7 @@ const UtilitySection = () => {
                   <p>
                     MPWR never had private token sales. The development team and
                     community all receive a transparent and fair
-                    <br /> distribution of tokens according to their
+                   distribution   <br />of tokens according to their
                     contributions and support. The long- term goal is full
                     decentralization.
                   </p>
@@ -80,7 +85,7 @@ const UtilitySection = () => {
               <div className="col-lg-4 d-flex">
                 <span>2</span>
                 <span>
-                  <h6>Fair START, Fair Development</h6>
+                  <h6>Shared Profit and Governance</h6>
                   <p>
                     The community determines ClubRare's operating policies,
                     <br /> steers the development of
@@ -92,7 +97,7 @@ const UtilitySection = () => {
               <div className="col-lg-4 d-flex">
                 <span>3</span>
                 <span>
-                  <h6>Fair START, Fair Development</h6>
+                  <h6>Sustainable Economy</h6>
                   <p>
                     MPWR Project is committed to <br />
                     never using unsustainable

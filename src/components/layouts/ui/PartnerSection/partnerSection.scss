@@ -1,5 +1,5 @@
 .partnersection_wrp {
-  background: url("../../../../assets/images/footerpipe.png"),radial-gradient(73% 100% at 46% 135%, #0216DD 0%, rgba(2, 22, 221, 0) 100%);
+  background: url("../../../../assets/images/footerpipe1.png"),radial-gradient(73% 100% at 46% 135%, #0216DD 0%, rgba(2, 22, 221, 0) 100%);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 100% auto;
@@ -12,14 +12,15 @@
     .row {
       .partner {
         // margin-top: 100px;
-        padding-top: 120px;
+        padding-top: 80px;
+        margin: 55px 0px;
 
         .partner_heading {
           // margin-left: 450px;
           font-family: "HelveticaNeueLTProBlkCn";
           font-style: normal;
           font-weight: 900;
-          font-size: 40px;
+          font-size: 30px;
           line-height: 140%;
           text-align: center;
           text-transform: uppercase;
@@ -31,7 +32,7 @@
           justify-content: center;
           align-items: center;
           width: 78%;
-          margin: 30px auto 0px;
+          margin: 17px auto 0px;
 
           img {
             height: auto;

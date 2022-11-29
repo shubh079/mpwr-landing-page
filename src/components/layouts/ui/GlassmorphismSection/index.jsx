@@ -19,7 +19,7 @@ const GlassMorphism = () => {
             <div className="col-lg-6 col-12 d-flex justify-content-center align-items-center flex-column gap_mobile ">
             
               <img src={uniswap} className="uniswap_img" alt="image" />
-              <div className="glass_btn d-flex gap-4">
+              <div className="glass_btn d-flex gap-2">
              
                 <button className="uniswap_btn bg-transparent">
                   <span className="text_uniswap_btn">VIEW GUIDE</span>
